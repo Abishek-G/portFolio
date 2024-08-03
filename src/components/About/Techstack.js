@@ -1,17 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiGit,
   DiAngularSimple,
   DiHtml5,
-  DiBootstrap,
-  DiMysql,
   DiCss3
 } from "react-icons/di";
-import { SiCypress } from "react-icons/si";
+import { SiCypress, SiTypescript } from "react-icons/si";
 
 
 function Techstack() {
@@ -23,9 +20,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
-      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiAngularSimple />
       </Col>
@@ -39,7 +36,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCypress />
